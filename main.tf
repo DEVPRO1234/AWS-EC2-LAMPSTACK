@@ -93,5 +93,5 @@ user = "ec2-user"
 password = ""
 private_key = "${file("/home/ec2-user/private_key.pem")}"
 }
-
+}
 
