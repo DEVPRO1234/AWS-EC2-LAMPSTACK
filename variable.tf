@@ -18,16 +18,16 @@ variable "secret_key" {
 }
 
 
-variable "Region"
+variable "region"
  {
      
-     default = "east-us-2"
+     default = "us-east-2"
 
  }
 
 
 
-
+// type for EC2 Instance (free tier)
 variable "instance_type" {
   description = "instance type for ec2"
   default     =  "t2.micro"
