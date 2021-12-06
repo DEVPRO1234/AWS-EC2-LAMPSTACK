@@ -3,9 +3,9 @@
 provider "aws"{
 
  //region ="us-east-2"
- access key  = var.access_key
- secret key  = var.secret_key
- region = var.region 
+ aws_access_key  = "${var.access_key}"
+ aws_secret_key  = "${var.secret_key}"
+ region = "${var.region}" 
  
 
 
