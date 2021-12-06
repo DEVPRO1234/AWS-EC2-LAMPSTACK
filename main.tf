@@ -19,6 +19,8 @@ provider "aws"{
 resource "aws_security_group" "my_security_group" {
   name        = var.security_group
   description = "security group for Ec2 instance"
+ 
+
 
 
  ingress {
