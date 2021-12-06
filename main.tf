@@ -2,15 +2,11 @@
 
 provider "aws"{
 
- //region ="us-east-2"
+
  aws_access_key  = "${var.access_key}"
  aws_secret_key  = "${var.secret_key}"
- region = "${var.region}" 
- 
+ region = "${var.region}"
 
-
-//  var.access_key = "AKIARUMJ2LF6TDDLVEVM"
- //secret_key = "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"
  
 }
  
