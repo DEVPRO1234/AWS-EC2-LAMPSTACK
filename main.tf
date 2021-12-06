@@ -93,9 +93,7 @@ connection {
 type = "ssh"
 user = "ec2-user"
 password = ""
-#copy <your_private_key>.pem to your local instance home directory
-#restrict permission: chmod 400 <your_private_key>.pem
-private_key = "${file("/home/ec2-user/<your_private_key>.pem")}"
+private_key = "${file("/home/ec2-user/private_key.pem")}"
 }
 }
 }
