@@ -48,5 +48,3 @@ variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
   default     = "ami-08a57643245353515"
 }
-© 2021 GitHub, Inc.
-Terms
