@@ -90,7 +90,7 @@ destination = "/var/www/html/index.php"
 connection {
 type = "ssh"
 user = "ec2-user"
-password = ""
+password = "Mbl@1234567"
 private_key = "${file("/home/ec2-user/private_key.pem")}"
 }
 }
