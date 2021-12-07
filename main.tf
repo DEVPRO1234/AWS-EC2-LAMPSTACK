@@ -3,8 +3,8 @@
 provider "aws"{
 
 
- aws_access_key  = var.access_key
- aws_secret_key  = var.secret_key
+ Akey  = var.access_key
+ Skey  = var.secret_key
  Region = var.region
 
  
