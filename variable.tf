@@ -5,28 +5,6 @@ default = ["20","80","443","81","8080"]
 
 }
 
-// access key for aws 
-variable "access_key" {
-
-    default = "AKIARUMJ2LF6TDDLVEVM"
-}
-
-// secret key for aws
-variable "secret_key" {
-
-    default = "ZlbfJD6RlO4FQ+fa7BxRQSkU/iUI/T6qL7P1exWH"
-}
-
-
-variable "region"{
-    
-     default = "us-east-2"
-
- }
-
-
-
-
 variable "instance_type" {
   description = "instance type for ec2"
   default     =  "t2.micro"
