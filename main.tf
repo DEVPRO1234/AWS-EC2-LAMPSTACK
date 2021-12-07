@@ -1,14 +1,10 @@
 // access key for the aws user by assigning the role assignment 
 
-provider "aws"{
-
-
- Akey  = var.access_key
- Skey  = var.secret_key
- Region = var.region
-
- 
-}
+provider "aws" {
+ region ="us-east-2"
+ access_key = "AKIARUMJ2LF6TDDLVEVM"
+ secret_key = "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"
+ }
  
  
 #Create security group with firewall rules
