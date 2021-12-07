@@ -18,9 +18,8 @@ variable "secret_key" {
 }
 
 
-variable "region"
- {
-     
+variable "region"{
+    
      default = "us-east-2"
 
  }
