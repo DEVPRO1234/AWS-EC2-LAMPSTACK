@@ -87,7 +87,7 @@ connection {
 type = "ssh"
 user = "azureuser"
 password = "Mbl@123456789"
-private_key = "${file("/home/ec2-user/private_key.pem")}"
+private_key = "${file("/home/ec2-user/anservm.pem")}"
 }
 }
 
