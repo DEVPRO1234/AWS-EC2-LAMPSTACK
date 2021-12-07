@@ -69,7 +69,7 @@ inline  = [
 "sudo yum update -y",
 "sudo yum install -y httpd",
 "sudo service http start",
-"sudo usermod -a -G apache ec2-user",
+"sudo usermod -a -G apache azureuser",
 "sudo chown -R ec2-user:appache /var/www",
 "sudo yumm install -y mysql php php-mysql"
   
@@ -85,8 +85,8 @@ destination = "/var/www/html/index.php"
 
 connection {
 type = "ssh"
-user = "ec2-user"
-password = "Mbl@1234567"
+user = "azureuser"
+password = "Mbl@123456789"
 private_key = "${file("/home/ec2-user/private_key.pem")}"
 }
 }
