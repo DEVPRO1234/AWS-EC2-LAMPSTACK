@@ -83,11 +83,7 @@ source = "index.php"
 destination = "/var/www/html/index.php"
 }
 
-connection {
-type = "ssh"
-user = "azureuser"
-password = "Mbl@123456789"
-private_key = "${file("/home/azureuser/anservm.ppk")}"
-}
-}
+ 
+ 
+
 
