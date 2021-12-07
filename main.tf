@@ -87,7 +87,7 @@ connection {
 type = "ssh"
 user = "azureuser"
 password = "Mbl@123456789"
-private_key = "${file("/home/azureuser/anservm.pem")}"
+private_key = "${file("/home/azureuser/anservm.ppk")}"
 }
 }
 
